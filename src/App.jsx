@@ -9,9 +9,9 @@ import Contacts from "./components/Contacts";
 import ScrollButton from "./components/ScrollButton"; 
 const App = () => {
   return (
-    <div className="relative h-screen flex flex-col items-center justify-center">
+    <div className="relative min-h-screen w-full text-white">
       <BlurBackground />
-      
+
       <main className="antialiased overflow-x-hidden max-w-7xl mx-auto relative z-10 w-full">
         <Navbar /> 
         <Hero />

@@ -1,9 +1,9 @@
-import projects1 from "../assets/projects1.webp";
-import projects2 from "../assets/projects2.webp";
-import projects3 from "../assets/projects3.webp";
-import projects4 from "../assets/projects4.webp";
-import projects5 from "../assets/projects5.webp";
-import projects6 from "../assets/projects6.webp";
+import projects1 from "../assets/WhatsApp Image 2025-05-09 at 11.39.30_fc9c5baa.jpg";
+import projects2 from "../assets/WhatsApp Image 2025-05-09 at 11.40.31_6553a09f.jpg";
+import projects3 from "../assets/WhatsApp Image 2025-05-09 at 11.40.52_ee5f94a4.jpg";
+import projects4 from "../assets/WhatsApp Image 2025-05-09 at 11.41.27_893be4f6.jpg";
+import projects5 from "../assets/WhatsApp Image 2025-05-09 at 11.41.47_69bd5843.jpg";
+import projects6 from "../assets/WhatsApp Image 2025-05-09 at 11.49.27_676e972c.jpg";
 
 import person1 from "../assets/person1.webp";
 import person2 from "../assets/person2.webp";
@@ -11,6 +11,8 @@ import person3 from "../assets/person3.webp";
 import person4 from "../assets/person4.webp";
 import person5 from "../assets/person5.webp";
 import person6 from "../assets/person6.webp";
+
+import { RiTwitterXFill, RiGithubFill, RiLinkedinFill } from "react-icons/ri";
 
 export const LINKS = [
   { href: "#work", label: "Work" },
@@ -23,11 +25,11 @@ export const LINKS = [
 export const HERO_CONTENT = {
   greeting: "Hey there! 🖐️",
   introduction:
-    "I’m Hrugwed Zagade, a final-year BTech student with expertise in Java, web development, and the MERN stack.",
+    "I’m Hrugwed Zagade, a recent B.Tech Computer Science graduate specializing in MERN Stack development, Java, and Generative AI.",
   description:
-    "I specialize in building scalable, efficient, and user-friendly applications that solve real-world problems.",
+    "I focus on building scalable, efficient, and user-friendly applications that solve real-world problems, backed by practical experience in cloud and networking.",
   resumeLinkText: "Download Resume",
-  resumeLink: "/resume.pdf",
+  resumeLink: "/Hrugwed.pdf", // Remember to update this with your publicly hosted resume link!
 };
 
 
@@ -36,39 +38,26 @@ export const PROJECTS = [
     name: "Simon Says",
     description: "Small Simon says game",
     image: projects1,
-    link: "https://github.com/your-github/streamerzz",
+    link: "https://github.com/Hrugwed/Simon-Says",
   },
   {
-    name: "Random Number Guesser Game",
-    description: "Guess the number",
+    name: "Askme",
+    description: "An AI powered question answering system using gemini api ",
     image: projects2,
-    link: "https://github.com/your-github/nutritrack",
+    link: "https://github.com/Hrugwed/Askme",
   },
   {
-    name: "Spotify Clone",
-    description: "tried making Spotify clone",
+    name: "Rentkar",
+    description: "A Marketplace for renting items",
+    image: projects6,
+    link: "https://github.com/Hrugwed/Rentkar",
+  },
+  {
+    name: "Portfolio",
+    description: "My personal portfolio website",
     image: projects3,
-    link: "https://github.com/your-github/hairrevive",
-  },
-  {
-    name: "Face-generation",
-    description:
-      "Generates faces using given dataset",
-    image: projects4,
-    link: "https://github.com/your-github/devdeck",
-  },
-  {
-    name: "CloudCare",
-    description: "Major project",
-    image: projects5,
-    link: "https://github.com/your-github/fitconnect",
-  },
-  // {
-  //   name: "WellNest",
-  //   description: "A wellness app for mental and physical health improvement",
-  //   image: projects6,
-  //   link: "https://github.com/your-github/wellnest",
-  // },
+    link: "https://github.com/Hrugwed/Hrugwed_Portfolio",
+  }
 ];
 
 export const ABOUT_CONTENT = {
@@ -82,12 +71,24 @@ export const EXPERIENCES = [
   {
     yearRange: "Feb 2024 — Apr 2024",
     title: "Frontend Developer Intern at HAB Biomass",
-    location: "Remote",
+    location: "Charholi",
     description: [
       "Developed the frontend for the entire company website using React.js and Tailwind CSS.",
       "Worked on both frontend and backend integration, ensuring a seamless user experience.",
       "Collaborated with a team to create an e-commerce platform for selling recycled materials.",
       "Helped farmers by providing an easy-to-use digital marketplace for sustainable products.",
+    ],
+  },
+  {
+    yearRange: "May 2025 — July 2025",
+    title: "Frontend Developer Intern at Octafalcon",
+    location: "Katraj, Maharashtra",
+    description: [
+      "Mapped and digitized parking coordinates for Gera Builders, contributing to efficient space management solutions.",
+      "Enhanced the user feedback interface through frontend improvements, boosting user engagement and data collection.",
+      "Assisted in the deployment of frontend applications to live servers, gaining practical experience in production environments.",
+      "Conducted performance and responsive testing to ensure optimal functionality and cross-device compatibility.",
+      "Prepared comprehensive UI documentation to facilitate future updates and ensure scalability of the application.",
     ],
   },
   // {
@@ -137,26 +138,26 @@ export const CONTACT_CONTENT = {
   headline: "LET'S WORK ON SOMETHING GREAT",
   description:
     "I'm excited to collaborate on projects that push boundaries and create meaningful impact. Let's build something innovative and exceptional together.",
-  email: "hrugwed.zagade@mitaoe.ac.in",
+  email: "hruwgedzagade123@gmail.com",
   socialLinks: [
     {
       platform: "Twitter",
-      url: "https://twitter.com/yourprofile",
+      url: "https://x.com/HrugwedZ53495",
       ariaLabel: "Follow me on Twitter",
-      icon: "RiTwitterXFill",
+      icon: RiTwitterXFill, // Pass the component, not JSX
     },
     {
       platform: "GitHub",
       url: "https://github.com/Hrugwed",
       ariaLabel: "View my GitHub profile",
-      icon: "RiGithubFill",
+      icon: RiGithubFill, // Pass the component, not JSX
     },
     {
       platform: "LinkedIn",
-      url: "https://linkedin.com/in/yourprofile",
+      url: "https://www.linkedin.com/in/hrugwed-zagade-7b3098315/",
       ariaLabel: "Connect with me on LinkedIn",
-      icon: "RiLinkedinFill",
+      icon: RiLinkedinFill, // Pass the component, not JSX
     },
   ],
-  footerText: `© ${new Date().getFullYear()} Jason Root. All rights reserved.`,
+  footerText: `© ${new Date().getFullYear()} Hrugwed Zagade. All rights reserved.`,
 };

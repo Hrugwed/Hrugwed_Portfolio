@@ -70,7 +70,7 @@ const Contacts = () => {
         {CONTACT_CONTENT.socialLinks.map((link, index) => (
           <motion.a
             key={index}
-            href={link.href}
+            href={link.url} // Fixed: Use `url` instead of `href` if that's the property in CONTACT_CONTENT
             target="_blank"
             rel="noopener noreferrer"
             className="text-3xl"
@@ -80,7 +80,7 @@ const Contacts = () => {
             custom={index * 0.2 + 1}
             variants={iconVariants}
           >
-            {link.icon}
+            {React.createElement(link.icon)} {/* Render the icon as a JSX element */}
           </motion.a>
         ))}
       </div>
