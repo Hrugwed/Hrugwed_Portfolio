@@ -65,6 +65,26 @@ const Contacts = () => {
       >
         {CONTACT_CONTENT.email}
       </motion.a>
+      <motion.p
+        className="text-lg md:text-xl mt-4"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+        custom={1}
+        variants={textVariants}
+      >
+        {CONTACT_CONTENT.phone}
+      </motion.p>
+      <motion.p
+        className="text-lg md:text-xl mt-4"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+        custom={1.2}
+        variants={textVariants}
+      >
+        {CONTACT_CONTENT.address}
+      </motion.p>
 
       <div className="flex space-x-6 mt-8">
         {CONTACT_CONTENT.socialLinks.map((link, index) => (

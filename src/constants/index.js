@@ -1,3 +1,4 @@
+import { address, p } from "framer-motion/client";
 import projects1 from "../assets/WhatsApp Image 2025-05-09 at 11.39.30_fc9c5baa.jpg";
 import projects2 from "../assets/WhatsApp Image 2025-05-09 at 11.40.31_6553a09f.jpg";
 import projects3 from "../assets/WhatsApp Image 2025-05-09 at 11.40.52_ee5f94a4.jpg";
@@ -18,7 +19,7 @@ export const LINKS = [
   { href: "#work", label: "Work" },
   { href: "#about", label: "About" },
   { href: "#experience", label: "Experience" },
-  { href: "#testimonials", label: "Testimonials" },
+  { href: "#education", label: "Education" },
   { href: "#contact", label: "Contact" },
 ];
 
@@ -29,7 +30,7 @@ export const HERO_CONTENT = {
   description:
     "I focus on building scalable, efficient, and user-friendly applications that solve real-world problems, backed by practical experience in cloud and networking.",
   resumeLinkText: "Download Resume",
-  resumeLink: "/Hrugwed.pdf", // Remember to update this with your publicly hosted resume link!
+  resumeLink: "/Hrugwed (4).pdf", // Remember to update this with your publicly hosted resume link!
 };
 
 
@@ -71,7 +72,7 @@ export const EXPERIENCES = [
   {
     yearRange: "Feb 2024 — Apr 2024",
     title: "Frontend Developer Intern at HAB Biomass",
-    location: "Charholi",
+    location: "Pune, Maharashtra",
     description: [
       "Developed the frontend for the entire company website using React.js and Tailwind CSS.",
       "Worked on both frontend and backend integration, ensuring a seamless user experience.",
@@ -82,9 +83,9 @@ export const EXPERIENCES = [
   {
     yearRange: "May 2025 — July 2025",
     title: "Frontend Developer Intern at Octafalcon",
-    location: "Katraj, Maharashtra",
+    location: "Pune, Maharashtra",
     description: [
-      "Mapped and digitized parking coordinates for Gera Builders, contributing to efficient space management solutions.",
+      "Mapped and digitized parking coordinates for Gera Builders.",
       "Enhanced the user feedback interface through frontend improvements, boosting user engagement and data collection.",
       "Assisted in the deployment of frontend applications to live servers, gaining practical experience in production environments.",
       "Conducted performance and responsive testing to ensure optimal functionality and cross-device compatibility.",
@@ -135,10 +136,12 @@ export const TESTIMONIALS = [
 
 
 export const CONTACT_CONTENT = {
-  headline: "LET'S WORK ON SOMETHING GREAT",
+  headline: "Hrugwed Zagade",
   description:
     "I'm excited to collaborate on projects that push boundaries and create meaningful impact. Let's build something innovative and exceptional together.",
   email: "hruwgedzagade123@gmail.com",
+  phone: "+91 88983 82868", 
+  address: "Pune, Maharashtra, India",
   socialLinks: [
     {
       platform: "Twitter",
