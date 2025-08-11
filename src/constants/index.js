@@ -35,12 +35,7 @@ export const HERO_CONTENT = {
 
 
 export const PROJECTS = [
-  {
-    name: "Simon Says",
-    description: "Small Simon says game",
-    image: projects1,
-    link: "https://github.com/Hrugwed/Simon-Says",
-  },
+  
   {
     name: "Askme",
     description: "An AI powered question answering system using gemini api ",
@@ -52,6 +47,12 @@ export const PROJECTS = [
     description: "A Marketplace for renting items",
     image: projects6,
     link: "https://github.com/Hrugwed/Rentkar",
+  },
+  {
+    name: "Simon Says",
+    description: "Small Simon says game",
+    image: projects1,
+    link: "https://github.com/Hrugwed/Simon-Says",
   },
   {
     name: "Portfolio",
