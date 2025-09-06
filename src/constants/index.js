@@ -55,6 +55,12 @@ export const PROJECTS = [
     link: "https://github.com/Hrugwed/Simon-Says",
   },
   {
+    name: "PingUp",
+    description: "Social Media ",
+    image: projects2,
+    link: "https://github.com/Hrugwed/MonkeyGram",
+  },
+  {
     name: "Portfolio",
     description: "My personal portfolio website",
     image: projects3,
