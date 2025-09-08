@@ -35,7 +35,7 @@ export const HERO_CONTENT = {
 
 
 export const PROJECTS = [
-  
+
   {
     name: "Askme",
     description: "An AI powered question answering system using gemini api ",
@@ -49,17 +49,18 @@ export const PROJECTS = [
     link: "https://github.com/Hrugwed/Rentkar",
   },
   {
-    name: "Simon Says",
-    description: "Small Simon says game",
-    image: projects1,
-    link: "https://github.com/Hrugwed/Simon-Says",
-  },
-  {
     name: "PingUp",
     description: "Social Media ",
     image: projects2,
     link: "https://github.com/Hrugwed/MonkeyGram",
   },
+  {
+    name: "Simon Says",
+    description: "Small Simon says game",
+    image: projects1,
+    link: "https://github.com/Hrugwed/Simon-Says-Game",
+  },
+
   {
     name: "Portfolio",
     description: "My personal portfolio website",
@@ -147,7 +148,7 @@ export const CONTACT_CONTENT = {
   description:
     "I'm excited to collaborate on projects that push boundaries and create meaningful impact. Let's build something innovative and exceptional together.",
   email: "hruwgedzagade123@gmail.com",
-  phone: "+91 88983 82868", 
+  phone: "+91 88983 82868",
   address: "Pune, Maharashtra, India",
   socialLinks: [
     {
