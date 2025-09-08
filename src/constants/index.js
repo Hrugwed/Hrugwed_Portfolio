@@ -30,7 +30,7 @@ export const HERO_CONTENT = {
   description:
     "I focus on building scalable, efficient, and user-friendly applications that solve real-world problems, backed by practical experience in cloud and networking.",
   resumeLinkText: "Download Resume",
-  resumeLink: "/Hrugwed (4).pdf", // Remember to update this with your publicly hosted resume link!
+  resumeLink: "/Hrugwed.pdf", // Remember to update this with your publicly hosted resume link!
 };
 
 
